@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  
+  <head><h1>Hi, Welcome to Ibrahim's Calculator</h1></head>
+    <style>
+        table, th, td {
+          border: 0px solid black;
+          border-collapse: collapse;
+        }
+        
+        table.center {
+          margin-left: auto; 
+          margin-right: auto;
+        }
+        </style>
+    <style>
+        table, th, td {
+          border: 0px solid black;
+          border-collapse: collapse;
+        }
+        
+        table.centernew {
+          margin-left: auto; 
+          margin-right: auto;
+        }
+        </style>
+
+<table class="centernew">
+<tr>
+    <th style="width:520px;height:110px;">7</th>
+</tr>
+</table>
+
+
+<table class="center">
+ 
+    
+    <tr>
+        <td><button type="button" style="width:130px;height:110px;"><h1>1</h1></button> </td>
+
+        <td><button type="button" style="width:130px;height:110px;"><h1>2</h1></button></td>
+        
+        <td><button type="button" style="width:130px;height:110px;"><h1>3</h1></button></td>
+    
+        <td><button type="button" style="width:130px;height:110px;"><h1>+</h1></button></td>
+    </tr>
+
+    <tr>
+        <td><button type="button" style="width:130px;height:110px;"><h1>4</h1></button> </td>
+        
+        <td><button type="button" style="width:130px;height:110px;"><h1>5</h1></button></td>
+        
+        <td><button type="button" style="width:130px;height:110px;"><h1>6</h1></button></td>
+
+        <td><button type="button" style="width:130px;height:110px;"><h1>-</h1></button></td>
+
+    </tr>
+    <tr>
+    
+        <td>
+        <button type="button"style="width:130px;height:110px;" 
+        onclick="window.location.href='http://127.0.0.1:8000/ajax/';">
+        <h1>7</h1>
+        </button>
+        </td>
+        <td><button type="button" style="width:130px;height:110px;"><h1>8</h1></button></td>
+        
+        <td><button type="button" style="width:130px;height:110px;"><h1>9</h1></button></td>
+        
+        <td><button type="button" style="width:130px;height:110px;"><h1>x</h1></button></td>
+        
+    </tr>
+    <tr>
+        <td><button type="button" style="width:130px;height:110px;"><h1>.</h1></button></td>
+        
+        <td><button type="button" style="width:130px;height:110px;"><h1>0</h1></button></td>
+        
+        <td><button type="button" style="width:130px;height:110px;"><h1>=</h1></button></td>
+        
+        <td><button type="button" style="width:130px;height:110px;"><h1>÷</h1></button></td>
+    </tr>
+
+
+</table>
+<script src=
+  "C:\Users\Ibrahim Metwaly\CodingLanguages\jquery\jquery-3.6.0">
+  $(function() {
+    
+    $("panel9").hide(1000).show(1000);
+
+
+  });
+
+  </script>
+
+</html>

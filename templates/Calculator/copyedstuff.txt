@@ -1,0 +1,17 @@
+return render(request, 'calc.html',{'num':x})
+<tr>
+    <th style="width:520px;height:110px;">display</th>
+</tr>
+
+        <button type="button"style="width:130px;height:110px;" 
+        onclick="window.location.href='http://127.0.0.1:8000/calcu/';">
+        <h1>7</h1>
+        </button>
+
+
+        {% block content %}
+  <h1> 
+    {{num}}
+  </h1>
+{% endblock  %}
+return render(request, 'calc.html',{'num':xy})

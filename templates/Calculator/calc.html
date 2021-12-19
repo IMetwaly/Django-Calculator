@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+
+ 
+<head>
+  <h1>Django Calculator</h1>
+  <h4>By Ibrahim</h4>
+</head>
+    <style>
+        table, th, td {
+          border: 0px solid black;
+          border-collapse: collapse;
+        }
+        
+        table.center {
+          margin-left: auto; 
+          margin-right: auto;
+        }
+        </style>
+    <style>
+        table, th, td {
+          border: 0px solid black;
+          border-collapse: collapse;
+        }
+        
+        table.centernew {
+          margin-left: auto; 
+          margin-right: auto;
+        }
+        </style>
+
+
+<table class="centernew">
+  <!---var>0</var>-->
+  <tr>
+    <td style="width:520px;height:110px;", id='display'><h1>{{num}}</h1></td>
+  </tr>
+</table>
+
+
+
+
+<table class="center">
+  <tr>
+    <td>
+    <button type="button"style="width:130px;height:70px;position:relative;
+    left:264px"
+    onclick="window.location.href='http://127.0.0.1:8000/del/';">
+    <h1>DEL</h1>
+    </button>
+    </td>
+    <td>
+      <button type="button"style="width:130px;height:70px;position:relative;
+      left:264px"
+      onclick="window.location.href='http://127.0.0.1:8000/calc/';">
+      <h1>AC</h1>
+      </button>
+      </td>
+      <td>
+        <button type="button"style="width:130px;height:70px;position:relative;
+        right:132px"
+        onclick="window.location.href='http://127.0.0.1:8000/cb/';">
+        <h1>)</h1>
+        </button>
+        </td>
+        <td>
+          <button type="button"style="width:130px;height:70px;position:relative;
+          right:396px"
+          onclick="window.location.href='http://127.0.0.1:8000/ob/';">
+          <h1>(</h1>
+          </button>
+          </td>
+  </tr>
+    
+    <tr>
+        <td>
+      <button type="button" style="width:130px;height:110px;" 
+        onclick="window.location.href='http://127.0.0.1:8000/1/';">
+        <h1>1</h1>
+      </button> 
+      </td>
+
+        <td><button type="button" style="width:130px;height:110px;"
+        onclick="window.location.href='http://127.0.0.1:8000/2/';">
+          <h1>2</h1>
+        </button>
+      </td>
+        
+        <td><button type="button" style="width:130px;height:110px;"
+        onclick="window.location.href='http://127.0.0.1:8000/3/';"  >
+          <h1>3</h1>
+        </button>
+      </td>
+    
+        <td><button type="button" style="width:130px;height:110px;"
+          onclick="window.location.href='http://127.0.0.1:8000/+/';"  >
+          <h1>+</h1>
+        </button>
+      </td>
+    </tr>
+
+    <tr>
+        <td><button type="button" style="width:130px;height:110px;"
+        onclick="window.location.href='http://127.0.0.1:8000/4/';"  >
+          <h1>4</h1>
+        </button> 
+      </td>
+        
+        <td><button type="button" style="width:130px;height:110px;"
+        onclick="window.location.href='http://127.0.0.1:8000/5/';"  >
+          <h1>5</h1>
+        </button>
+      </td>
+        
+        <td><button type="button" style="width:130px;height:110px;"
+        onclick="window.location.href='http://127.0.0.1:8000/6/';"  >
+          <h1>6</h1>
+        </button>
+      </td>
+
+        <td><button type="button" style="width:130px;height:110px;"
+        onclick="window.location.href='http://127.0.0.1:8000/-/';"    >
+          <h1>-</h1>
+        </button>
+      </td>
+
+    </tr>
+    <tr>
+    
+        <td>
+          <button type="button"style="width:130px;height:110px;" 
+        onclick="window.location.href='http://127.0.0.1:8000/7/';"  >
+          <h1>7</h1>
+          </button>
+        </td>
+        
+      <td><button type="button" style="width:130px;height:110px;"
+        onclick="window.location.href='http://127.0.0.1:8000/8/';"  >
+        <h1>8</h1>
+        </button>
+      </td>
+        
+        <td><button type="button" style="width:130px;height:110px;"
+        onclick="window.location.href='http://127.0.0.1:8000/9/';"  >
+          <h1>9</h1>
+        </button>
+      </td>
+        
+        <td><button type="button" style="width:130px;height:110px;"
+        onclick="window.location.href='http://127.0.0.1:8000/x/';"  >
+          <h1>x</h1>
+        </button>
+      </td>
+        
+    </tr>
+    <tr>
+        <td><button type="button" style="width:130px;height:110px;"
+        onclick="window.location.href='http://127.0.0.1:8000/dot/';"  >
+        <h1>.</h1>
+      </button>
+      </td>
+        
+        <td><button type="button" style="width:130px;height:110px;"
+        onclick="window.location.href='http://127.0.0.1:8000/0/';"  >
+          <h1>0</h1>
+        </button>
+      </td>
+        
+        <td><button type="button" style="width:130px;height:110px;"
+        onclick="window.location.href='http://127.0.0.1:8000/=/';"  >
+          <h1>=</h1>
+        </button>
+      </td>
+        
+        <td><button type="button" style="width:130px;height:110px;"
+        onclick="window.location.href='http://127.0.0.1:8000///';"  >
+          <h1>÷</h1>
+        </button>
+        </td>
+    </tr>
+
+
+</table>
+
+
+
+
+
+
+
+
+
+<script src=
+  "C:\Users\Ibrahim Metwaly\CodingLanguages\jquery\jquery-3.6.0">
+  $(function() {
+    
+    $("panel9").hide(1000).show(1000);
+
+
+  });
+
+  </script>
+
+</html>
